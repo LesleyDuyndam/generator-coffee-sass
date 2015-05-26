@@ -1,0 +1,5 @@
+###
+  index
+###
+
+indexExample = new EXAMPLE()

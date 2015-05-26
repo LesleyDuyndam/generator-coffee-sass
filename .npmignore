@@ -1,0 +1,9 @@
+# Covers JetBrains IDEs: IntelliJ, RubyMine, PhpStorm, AppCode, PyCharm
+
+
+npm-debug.log
+
+.idea/
+node_modules/
+app/templates/dist/
+app/templates/node_modules/
