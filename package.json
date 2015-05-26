@@ -1,7 +1,7 @@
 {
   "name": "generator-coffee-SASS",
   "version": "0.0.1",
-  "description": "A generator for Yeoman to scaffold CoffeeScript and SASS stack projects.",
+  "description": "Generator for Yeoman to scaffold CoffeeScript and SASS stack projects.",
   "keywords": [
     "yeoman-generator",
     "Coffee",
