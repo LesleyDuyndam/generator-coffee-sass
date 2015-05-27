@@ -4,5 +4,4 @@ npm-debug.log
 
 .idea/
 node_modules/
-app/templates/dist/
 app/templates/node_modules/
