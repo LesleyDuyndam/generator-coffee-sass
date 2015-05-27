@@ -65,6 +65,7 @@ class CoffeeKarmaGenerator extends yeoman.generators.Base
 
   app: ->
     @mkdir 'dist'
+    @template 'dist/index.html', "dist/index.html"
     @template 'src/coffee/index.coffee', "src/coffee/#{@appname}.coffee"
     @template 'src/coffee/classes/example.class.coffee', "src/coffee/classes/example.class.coffee"
     @template 'src/sass/main.scss', 'src/sass/main.scss'

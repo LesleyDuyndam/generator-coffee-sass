@@ -1,0 +1,9 @@
+// _footer.scss
+@import '../snippets/colors';
+@import '../snippets/typography';
+
+footer#mainFooter {
+  height: 400px;
+  width: 100%;
+  background: $primary_color;
+}

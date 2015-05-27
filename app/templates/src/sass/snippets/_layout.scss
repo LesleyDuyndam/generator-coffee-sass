@@ -1,0 +1,19 @@
+// _layout.scss
+@import "colors";
+
+div#mainWrapper {
+
+  > div {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+
+    section.innerPadding {
+      padding: 150px 0;
+    }
+
+    section.innerMargin {
+      margin: 150px 0;
+    }
+  }
+}

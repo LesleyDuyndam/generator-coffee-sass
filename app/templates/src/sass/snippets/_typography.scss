@@ -1,0 +1,42 @@
+// _typography.scss
+// Import snippets
+@import 'colors';
+
+// create mixins
+@mixin font-paragraph() {
+  font-family: 'PT Serif', serif;
+}
+
+@mixin font-header() {
+  font-family: 'raleway', sans-serif;
+}
+
+// Start styling
+* {
+  font-size: 1em;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  @include font-header();
+  text-transform: uppercase;
+  color: $dark_color;
+}
+
+p {
+  @include font-paragraph();
+  color: $dark_color;
+}
+
+// header
+header#mainHeader a {
+  @include font-header();
+  text-transform: uppercase;
+  color: $light_color;
+}
+
+div#mainWrapper {
+  text-align: center;
+
+}
+
+

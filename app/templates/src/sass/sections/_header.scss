@@ -1,0 +1,41 @@
+// _header.scss
+@import '../snippets/colors';
+@import '../snippets/typography';
+
+header#mainHeader {
+  position: fixed;
+  height: 100px;
+  width: 100%;
+  left: 0;
+  top: 0;
+
+  z-index: 900;
+
+  background: $light_color;
+
+  &.atTop {
+    @include background-gradient($dark_color_mid, $dark_color_trans);
+  }
+
+  nav {
+    position: relative;
+    max-width: 1000px;
+    margin: 0 auto;
+
+    img {
+      display: inline-block;
+      margin-top: 20px;
+    }
+
+    ul {
+      display: inline-block;
+      position: absolute;
+      right: 0;
+
+      li {
+        display: inline-block;
+        padding: 40px 10px;
+      }
+    }
+  }
+}

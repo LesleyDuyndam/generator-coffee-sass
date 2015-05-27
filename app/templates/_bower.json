@@ -3,5 +3,9 @@
   "version": "0.0.1",
   "description": "<%= description %>",
   "main": "./dist/<%= slug %>.min.js",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "jquery": "~2.1.4",
+    "devicejs": "~0.2.7"
+  }
 }

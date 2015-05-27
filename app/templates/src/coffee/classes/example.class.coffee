@@ -2,9 +2,12 @@
   EXAMPLE Class
 ###
 
-class EXAMPLE
-  constructor: () ->
-    @property = true
+root = exports ? this
 
-  method: () ->
-    return @property
+class root.EXAMPLE
+  constructor: () ->
+    @hello = "Hello World!"
+
+
+  helloWorld: () ->
+    console.log @hello

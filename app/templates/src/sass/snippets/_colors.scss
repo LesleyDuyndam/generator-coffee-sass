@@ -1,0 +1,19 @@
+// _colors.scss
+
+$dark_color: rgba(0, 0, 0, 1);
+$dark_color_mid: rgba(0, 0, 0, 0.5);
+$dark_color_trans: rgba(0, 0, 0, 0);
+
+$light_color: rgba(255, 255, 255, 1);
+$light_color_trans: rgba(255, 255, 255, 0);
+
+$primary_color: rgba(224, 147, 57, 1);
+$primary_color_trans: rgba(224, 147, 57, 0);
+
+// Mixins
+@mixin background-gradient($from, $to) {
+  background: -moz-linear-gradient($from, $to); /* Firefox 3.6+ */
+  background: -webkit-gradient(linear, 0% 0%, 0% 100%, from($from), to($to)); /* Safari 4+, Chrome 1+ */
+  background: -webkit-linear-gradient($from, $to); /* Safari 5.1+, Chrome 10+ */
+  background: -o-linear-gradient($from, $to); /* Opera 11.10+ */
+}

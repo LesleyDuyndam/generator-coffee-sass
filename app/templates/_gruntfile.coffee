@@ -13,7 +13,7 @@ module.exports = (grunt) ->
     coffee: {
       compile:
         files:
-          "dist/<%= slug %>.js": ["src/coffee/classes/*.coffee", "src/coffee/*.coffee"]
+          "dist/scripts/<%= slug %>.js": ["src/coffee/classes/*.coffee", "src/coffee/*.coffee"]
     },
 
     sass: {
@@ -24,7 +24,7 @@ module.exports = (grunt) ->
     uglify: {
       my_target:
         files:
-          "dist/<%= slug %>.min.js": ["dist/<%= slug %>.js"]
+          "dist/scripts/<%= slug %>.min.js": ["dist/<%= slug %>.js"]
     },
 
     watch: {

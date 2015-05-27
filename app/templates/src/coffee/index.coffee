@@ -1,5 +1,7 @@
-###
-  index
-###
+# jQuery.read()
+jQuery ->
+  root = exports ? this
 
-indexExample = new EXAMPLE()
+  example = new root.EXAMPLE()
+
+  example.helloWorld()

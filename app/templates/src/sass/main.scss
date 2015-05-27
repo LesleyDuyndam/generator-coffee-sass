@@ -1,0 +1,12 @@
+// main.scss
+// Load fonts
+@import url(http://fonts.googleapis.com/css?family=Raleway:300);
+@import url(http://fonts.googleapis.com/css?family=PT+Serif);
+// Load Snippets
+@import 'snippets/reset';
+@import 'snippets/typography';
+@import 'snippets/colors';
+@import 'snippets/layout';
+// Load sections
+@import 'sections/header';
+@import 'sections/footer';
