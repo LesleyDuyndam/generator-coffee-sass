@@ -18,13 +18,13 @@ module.exports = (grunt) ->
 
     sass: {
       files:
-        "dist/style/main.css" : ["src/sass/*.scss", "src/sass/**/*.scss"]
+        "dist/style/main.css": ["src/sass/main.scss"]
     },
 
     uglify: {
       my_target:
         files:
-          "dist/scripts/<%= slug %>.min.js": ["dist/<%= slug %>.js"]
+          "dist/<%= slug %>.min.js": ["dist/<%= slug %>.js"]
     },
 
     watch: {
